@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/firefox:latest
+FROM lscr.io/jlesage/firefox:latest
 
 # Copy a custom userChrome.css to hide the three-dot menu
 RUN mkdir -p /config/.mozilla/firefox/*.default-release/chrome
