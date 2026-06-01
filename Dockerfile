@@ -1,4 +1,4 @@
-FROM hub.com/jlesage/firefox:latest
+FROM hub.docker.com/r/kasmweb/firefox:latest
 
 # Copy a custom userChrome.css to hide the three-dot menu
 RUN mkdir -p /config/.mozilla/firefox/*.default-release/chrome
